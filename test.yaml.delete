@@ -1,0 +1,28 @@
+# fruits.yaml file
+
+apples: 20
+mangoes: 2
+bananas: 3
+grapes: 100
+pineapples: 1
+
+# categories.yaml file
+
+sports:
+
+  - soccer
+  - football
+  - basketball
+  - cricket
+  - hockey
+  - table tennis
+
+countries:
+
+  - Pakistan
+  - USA
+  - India
+  - China
+  - Germany
+  - France
+  - Spain

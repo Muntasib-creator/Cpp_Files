@@ -50,20 +50,34 @@ void deQueue()
         }
     }
 }
+void display(){
+    if(front==NULL) return;
+    else{
+        Node* temp = front;
+        while(temp!=NULL){
+            cout<<temp->data<<" ";
+            temp = temp->next;
+        }
+        cout<<endl;
+    }
+}
 
 int main()
 {
 	enQueue(10);
 	enQueue(20);
+    display();
 
 	deQueue();
 	deQueue();
+    display();
 
 	enQueue(30);
 	enQueue(40);
 	enQueue(50);
 	deQueue();
-
+    display();
+    
     enQueue(60);
 
 	cout << "Queue Front : " << front->data << endl;

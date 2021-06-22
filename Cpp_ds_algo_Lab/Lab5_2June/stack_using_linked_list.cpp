@@ -61,7 +61,7 @@ int main()
     top_element();
     //20
     display();
-    //10 20
+    //20 10
 
     pop();
 
@@ -69,7 +69,7 @@ int main()
     top_element();
     //30
     display();
-    //10 30
+    //30 10
 
 	return 0;
 }

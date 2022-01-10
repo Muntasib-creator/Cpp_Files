@@ -1,0 +1,11 @@
+# Ignore compiled exe
+*.exe
+# Ignore other
+*.pyc
+*.conf
+*.ini
+*.log
+*.bak
+.idea/
+.venv/
+*/.vscode/
